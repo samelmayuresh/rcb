@@ -7,18 +7,40 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header id="head">
   
+   <nav id="navbaer">
+<img src="rcb-removebg-preview.png" alt="champions" >
+<span id="brandname">ee sala cup numdu</span>
+<div id="cont">
+      
+         <a href="main.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="contact.html">Contact</a>
+      
+</div>
     
-    
-    <div id="mayur">
-         <h1>Mayur</h1>
-   <ul>
-    <li>help</li>
-    <li>about</li>
-    <li>contact</li>
-   </ul>
-    </div>
-   </header> 
+   </nav>
+<div id="champ">
+   <img src="rajat.png" alt="champions"  id="rajat">
+   <img src="rcb-removebg-preview.png" id="rcb" >
+   <img src="virat.png" alt=""  id="virat">
+</div>  
+<button href=""  onmouseenter="playSound()" onmouseleave="stopSound()">champions</button> 
+<audio id="hover-audio" src="rcb_anthem.mp3"></audio>
+
+<script>
+  const audio = document.getElementById("hover-audio");
+
+  function playSound() {
+    audio.currentTime = 0; 
+    audio.play();
+  }
+
+  function stopSound() {
+    audio.pause();
+    audio.currentTime = 0; 
+  }
+</script>
+  
 </body>
 </html>

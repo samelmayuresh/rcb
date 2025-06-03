@@ -1,17 +1,103 @@
-body{
-  background-color: blueviolet;
-  overflow: scroll;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+    background-image: url('https://c.ndtvimg.com/2025-06/ur81hbdg_rcb_625x300_04_June_25.jpeg?im=FeatureCrop,algorithm=dnn,width=806,height=605');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-a{
-  color: white;
+#navbaer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: burlywood;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0 32px;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+#navbaer img {
+  width: 64px;
+  height: 64px;
+  margin-right: 18px;
+  
+ 
+  box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+  object-fit: contain;
+}
+#brandname {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff9800;
+  letter-spacing: 2px;
+  margin-right: 40px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.10);
+}
+#cont {
+  display: flex;
+  gap: 28px;
+}
+#cont a {
+  color: red;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
   border-style: solid;
-  transition: all;
+  background-color: #f8f8f8;
 }
-a:hover{
-  color: black;
-  background-color: white;
-  border-color: black;
-  font-size: 60px;
+#cont a:hover, #cont a:focus {
+  background: #ff9800;
+  color: #222;
+}
+#champ img{
+  height: 300px;
+ 
+ 
+}
+#champ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-top: 75px;
+}
+button{
+  background-color: #ff9800;
+  color: #222;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 455px;
+  margin-top: 50px;
+} 
+button:hover {
+  background-color: #e72908;
+  transform: translateY(-10px);
+  text-shadow: #f8f8f8;
+}
+#rcb{
+    transition: transform 0.3s ease;
+}
+#rcb:hover {
+  
+  transform: scale(1.1);
+}
+#virat:hover{
+content: url("victory-removebg-preview.png");
+height: 400px;
+}
+#rajat:hover{
+content: url("cap-removebg-preview (1).png");
+height: 400px;
 }
