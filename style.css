@@ -32,7 +32,7 @@ body {
 #brandname {
   font-size: 2rem;
   font-weight: 700;
-  color: #ff9800;
+  color: #f81606;
   letter-spacing: 2px;
   margin-right: 40px;
   text-shadow: 0 1px 2px rgba(0,0,0,0.10);
@@ -94,10 +94,10 @@ button:hover {
   transform: scale(1.1);
 }
 #virat:hover{
-content: url("victory-removebg-preview.png");
+content: url("resources/victory-removebg-preview.png");
 height: 400px;
 }
 #rajat:hover{
-content: url("cap-removebg-preview (1).png");
+content: url("resources/cap-removebg-preview (1).png");
 height: 400px;
 }
