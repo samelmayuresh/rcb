@@ -4,6 +4,10 @@
 // num+=2;
 // }
 // let num2=10;
-const prompt = require('prompt-sync')();
-const name = prompt("What is your name? ");
-console.log("Hello, " + name + "!");
+// const prompt = require('prompt-sync')();
+// const name = prompt("What is your name? ");
+// console.log("Hello, " + name + "!");
+function square(num) {
+    return num * num;
+}
+console.log(square(5)); // Output: 25
