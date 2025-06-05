@@ -7,10 +7,10 @@
 // const prompt = require('prompt-sync')();
 // const name = prompt("What is your name? ");
 // console.log("Hello, " + name + "!");
- let square=function (num) {
-    return num * num;
-}
-console.log(square(5)); // Output: 25
+//  let square=function (num) {
+//     return num * num;
+// }
+// console.log(square(5)); // Output: 25
 
 function pokemon(name, type) {
     console.log("Pokemon Name: " + name);
@@ -19,6 +19,12 @@ function pokemon(name, type) {
 }
 function pikachu() {
     console.log("Pikachu is an Electric type Pokemon.");
-}   
+
+}  
+
+function charmander() {
+    console.log("Charmander is a Fire type Pokemon.");
+}
  
 console.log(pokemon("Pikachu", pikachu)); // Output: Pokemon Name: Pikachu
+console.log(pokemon("Charmander", charmander)); // Output: Pokemon Name: Pikachu
