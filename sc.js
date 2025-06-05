@@ -27,37 +27,37 @@
 // }
  
 // console.log(pokemon("Pikachu", pikachu,charmander)); // Output: Pokemon Name: Pikachu
-function avenger(name,power,power1){
-    console.log("Avenmgername:"+name);
-    power(power1);
-}
-function ironman(iron){
-    console.log("Rich,gineus,philantoriphist")
-    iron();
-} 
-function avenger1(spider,power1){
-console.log("Junior avenger name"+spider)
-power1();
-}
-function spiderman(e){
-    console.log("can climb on walls&building and can shoot webfluid");
-    e();
+// function avenger(name,power,power1){
+//     console.log("Avenmgername:"+name);
+//     power(power1);
+// }
+// function ironman(iron){
+//     console.log("Rich,gineus,philantoriphist")
+//     iron();
+// } 
+// function avenger1(spider,power1){
+// console.log("Junior avenger name"+spider)
+// power1();
+// }
+// function spiderman(e){
+//     console.log("can climb on walls&building and can shoot webfluid");
+//     e();
 
-}
+// }
 
-function eternalname(name,et){
-console.log("Eternal name"+name);
-et();
-}
-function eternal(more){
-console.log("they are the entity created by clestials to save humanity")
-more();
-}
+// function eternalname(name,et){
+// console.log("Eternal name"+name);
+// et();
+// }
+// function eternal(more){
+// console.log("they are the entity created by clestials to save humanity")
+// more();
+// }
 
-function clestials() {
-    console.log("Clestials are the most powerful beings in the universe");
-}
-avenger("Ironman", ironman, (next) =>avenger1("Spiderman", () =>spiderman(() =>eternalname("Thena",()=> eternal(() =>clestials())))))
+// function clestials() {
+//     console.log("Clestials are the most powerful beings in the universe");
+// }
+// avenger("Ironman", ironman, (next) =>avenger1("Spiderman", () =>spiderman(() =>eternalname("Thena",()=> eternal(() =>clestials())))))
    
 
-;
+// ;
