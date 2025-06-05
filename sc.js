@@ -11,3 +11,14 @@
     return num * num;
 }
 console.log(square(5)); // Output: 25
+
+function pokemon(name, type) {
+    console.log("Pokemon Name: " + name);
+    type();
+
+}
+function pikachu() {
+    console.log("Pikachu is an Electric type Pokemon.");
+}   
+ 
+console.log(pokemon("Pikachu", pikachu)); // Output: Pokemon Name: Pikachu
